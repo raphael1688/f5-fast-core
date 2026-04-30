@@ -1,3 +1,15 @@
+# v0.26.1
+## Fixed
+* Updated axios to 1.15.2 to resolve GHSA-43fc-jf86-j433 and GHSA-3p68-rc4w-qgx5
+* Updated follow-redirects to resolve GHSA-r4q5-vmmm-2653
+* Updated js-yaml to resolve GHSA-mh29-5h37-fv8m
+* Updated picomatch to resolve GHSA-3v7f-55p6-f55p
+* Updated minimatch to resolve GHSA-3ppc-4f35-3m26
+* Updated flatted to resolve GHSA-25h7-pfq9-p65f
+* Updated mocha to 11.7.5
+* Updated nyc to 18.0.0
+* Allowlisted non-exploitable dev-only advisories (ajv, diff, serialize-javascript, uuid)
+
 # v0.26.0
 ## Fixed
 * Vulnerabilities patched, but committed a partial of jsonplus-path package to vendor ourselves. This prevens FAST rpm loading failures on BIG-IP when node can't find the only patched version of it in npm: 10.3.0
